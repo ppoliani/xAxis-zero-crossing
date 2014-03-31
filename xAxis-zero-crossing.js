@@ -12,7 +12,7 @@
         var chart = this.chart,
             xAxis, yAxis, extremes, crossing;
 
-        if (typeof this.options.verticalLocation === 'string') {
+        if (typeof this.options.zeroCrossing === 'boolean') {
             xAxis = chart['xAxis'][0];
             yAxis = chart['yAxis'][0];
             extremes = yAxis.getExtremes();
